@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap');
 
 :root {
     --cor-1: #000000;
@@ -25,17 +25,18 @@ body {
 .layout {
     padding: 2%;
     display: flex;
+    gap: 10rem;
 }
 
 .layout_info {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 16px;
 }
 
 .foto {
-    width: 15%;
+    width: 20%;
 }
 
 .text_titulo {
@@ -55,7 +56,6 @@ body {
 .logoskills {
     display: flex;
     align-items: center;
-    flex-direction: row;
     gap: 16px;
 }
 
@@ -101,5 +101,8 @@ body {
 }
 
 @media (max-width: 1200px) {
+    .foto {
+        width: 50%;
+    }
     
 }
