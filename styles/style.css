@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+:root {
+    --cor-1: #000000;
+    --cor-2: #ffffff;
+    --cor-3: #363636;
+
+    --fonte-texto: "Truculenta", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(/assets/fundo.jpg) no-repeat center center fixed;
+    margin: 0 0 100px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.layout {
+    padding: 2%;
+    display: flex;
+}
+
+.layout_info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.foto {
+    width: 15%;
+}
+
+.text_titulo {
+    font-family: var(--fonte-texto);
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--cor-2);
+}
+
+.text_titulo2 {
+    font-family: var(--fonte-texto);
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--cor-2);
+}
+
+.logoskills {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.text {
+    font-family: var(--fonte-texto);
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: var(--cor-2);
+}
+
+.text2 {
+    font-family: var(--fonte-texto);
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: var(--cor-2);
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.links_bot {
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    text-decoration: none;
+    font-family: var(--fonte-texto);
+    color: var(--cor-2);
+    font-weight: 300;
+    border: 2px solid var(--cor-2);
+    padding: 6px;
+}
+
+.links_bot:hover {
+    background-color: var(--cor-3);
+}
+
+@media (max-width: 1200px) {
+    
+}
