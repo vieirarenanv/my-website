@@ -100,13 +100,6 @@ body {
     background-color: var(--cor-3);
 }
 
-.layout_proj {
-    padding: 10%;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-}
-
 @media (max-width: 1200px) {
     .foto {
         width: 50%;
