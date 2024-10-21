@@ -36,7 +36,6 @@ body {
 }
 
 .text_animation {
-    padding-top: 5%;
     display: flex;
     align-items: center;
     flex-direction: column;
